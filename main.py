@@ -3,7 +3,7 @@ from models import loadFile
 
 USERNAME = 'devrirnd'
 userId = getUserID(USERNAME)
-loadFollowerFollowing('quadritestingselenium', 'qadri1212', 
+loadFollowerFollowing('', '', 
                       USERNAME, 
                       user_id = userId['id'])
 
